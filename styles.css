@@ -1,22 +1,29 @@
 /* your code */
 
-th{
-	background-color : #2933f0;
+thead{
+	background-color : #215a8e;
 	color : white;
-	text-align: left;
 
 }
 table {
-  font-family: Arial, sans-serif;
+  border-spacing :0;
+	border-collapse : separate;
+	border-radius : 1em;
+	border : 1px solid #add;
+	overflow: hidden;
+	font-size : 0.5em;
+	font-family : sans-serif;
 	width : 100%;
 }
-th {
+th,td {
   font-size: 14px;
-  
+padding : 8px, 5px;
+	text-align : left;
 }
-	td{
-		 height: 25px;
-	}
-	#2{
-	background-color : #c7c2b3;
-	}
+tbody tr:nth-child(odd){
+	background-color : #fff;
+}
+tbody tr:nth-child(even){
+	background-color : #ddd;
+}
+
