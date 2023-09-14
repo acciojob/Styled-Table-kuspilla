@@ -1,1 +1,22 @@
 /* your code */
+
+th{
+	background-color : #2933f0;
+	color : white;
+	text-align: left;
+
+}
+table {
+  font-family: Arial, sans-serif;
+	width : 100%;
+}
+th {
+  font-size: 14px;
+  
+}
+	td{
+		 height: 25px;
+	}
+	#2{
+	background-color : #c7c2b3;
+	}
